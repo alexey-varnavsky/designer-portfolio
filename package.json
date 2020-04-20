@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "Portfolio student project with sass",
   "main": "index.html",
+  "homepage": "https://alexey-varnavsky.github.io/designer-portfolio",
   "scripts": {
+    "deploy": "gh-pages -d dist",
     "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
   "author": "Alexey Varnavsky",
   "license": "MIT",
   "devDependencies": {
+    "gh-pages": "^2.2.0",
     "node-sass": "^4.13.1"
   }
 }
